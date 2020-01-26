@@ -7,10 +7,16 @@ namespace EpamTasks
     {
         public static int CountVowels(string s)
         {
-            var vowels = new HashSet<char> { 'a', 'e', 'i', 'o', 'u' };
+            if(s== null)
+            {
+                throw new ArgumentNullException();
+            }
+            int total = 0;
 
-            int count = s.Count(c => vowels.Contains(c));
-            return count;
+            foreach (char ch in s.ToLower())
+                if ("aeiou".Contains(ch))
+                    total++;
+            return total;
         }
 
         // ----- ЗАПРЕЩЕНО ИЗМЕНЯТЬ КОД МЕТОДОВ, КОТОРЫЕ НАХОДЯТСЯ НИЖЕ -----
