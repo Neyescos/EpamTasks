@@ -33,6 +33,7 @@ namespace Fifth_Task
             }
            
         }
+
         public static bool IsPrime(int candidate)
         {
             if (candidate % 2 <= 0)
