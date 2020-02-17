@@ -9,6 +9,7 @@ using System.Linq;
 //   * Метод должен выбрасывать исключение ArgumentNullException в случае, если в метод передали null.
 //   * В решении разрешается использовать только конструкции языка. Использовать LINQ запрещено.
 //
+
 namespace ThirdTask
 {
     public class Program

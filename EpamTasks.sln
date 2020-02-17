@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpamTasks", "EpamTasks\EpamTasks.csproj", "{8C059C69-C8F1-456C-A767-28AB90BF3408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstTask", "EpamTasks\FirstTask.csproj", "{8C059C69-C8F1-456C-A767-28AB90BF3408}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Second Task", "Second Task\Second Task.csproj", "{B16F4240-2628-4F5D-93EF-DE6F14AC5A5B}"
 EndProject
@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThirdTask", "ThirdTask\Thir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fourth Task", "Fourth Task\Fourth Task.csproj", "{14441AB3-4CA9-4FAA-8643-4FFAD9E5D7EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fifth Task", "Fifth Task\Fifth Task.csproj", "{D24D6816-FA37-422E-93B1-BF188132047A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fifth Task", "Fifth Task\Fifth Task.csproj", "{D24D6816-FA37-422E-93B1-BF188132047A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
